@@ -58,7 +58,13 @@ btn5.addEventListener('click', () => {
 })
 
 submit.addEventListener('click', () => {
-    container.style.display = 'none';
-    contain.style.display = 'block';
-    rating.innerText = val;
+    if (val < 1 || val > 5) {
+        alert('Please choose a rating!');
+    } else {
+        container.style.display = 'none';
+        contain.style.display = 'block';
+        rating.innerText = val;
+}
+
 })
+
