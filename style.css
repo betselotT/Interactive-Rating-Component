@@ -5,15 +5,16 @@
 }
 
 body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     font-size: 15px;
     font-family: 'Overpass', sans-serif;
     background-color: #141519;
 }
 
 #container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 400px;
     height: 350px;
     background-image: linear-gradient(#212832, #181e27);
@@ -83,7 +84,15 @@ body {
     color: hsl(25, 97%, 53%);
 }
 
+.toggle{
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
 
+.toggle1{
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(217, 12%, 63%);
+}
  /* After Rating */
 
 
